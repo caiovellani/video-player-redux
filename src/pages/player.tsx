@@ -17,7 +17,7 @@ export function Player() {
             Deixar feedback
           </button>
         </div>
-        <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow">
+        <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow pr-80">
           <div className="flex-1">
             <div className="w-full bg-zinc-950 aspect-video">
               <ReactPlayer
@@ -28,8 +28,8 @@ export function Player() {
               />
             </div>
           </div>
-          <aside className="w-80 border-l border-zinc-800 bg-zinc-900">
-            <div className="">
+          <aside className="w-80 absolute top-0 bottom-0 right-0 divide-y-2 divide-zinc-900 overflow-y-scroll border-l border-zinc-800 bg-zinc-900 scrollbar-thin scrollbar-track-zinc-950 scrollbar-thumb-zinc-800">
+            <div>
               <button className="w-full flex items-center gap-3 bg-zinc-800 p-4 cursor-pointer">
                 <div className="flex h-10 w-10 rounded-full items-center justify-center bg-zinc-950 text-sm">
                   1
